@@ -26,5 +26,10 @@ pipeline{
                 echo "Welcome to Ako's team"
             }
         }
+        stage('5-welcoming message'){
+            steps{
+                echo "Welcome to my team"
+            }
+        }
     }
 }
