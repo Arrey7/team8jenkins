@@ -21,5 +21,10 @@ pipeline{
                 sh 'lscpu'
             }
         }
+        stage('5-welcome message'){
+            steps{
+                echo'Welcome to Ako's team'
+            }
+        }
     }
 }
