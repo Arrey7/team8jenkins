@@ -23,7 +23,12 @@ pipeline{
         }
         stage('5-welcome message'){
             steps{
-                echo'Welcome to Ako's team'
+                echo "Welcome to Ako's team"
+            }
+        }
+        stage('5-welcoming message'){
+            steps{
+                echo "Welcome to my team"
             }
         }
     }
